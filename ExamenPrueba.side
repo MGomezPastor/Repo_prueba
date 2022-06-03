@@ -1,0 +1,93 @@
+{
+  "id": "7a3b50ee-630c-4341-bb5b-86ef9a7bdd16",
+  "version": "2.0",
+  "name": "ExamenPrueba",
+  "url": "https://www.freecodecamp.org",
+  "tests": [{
+    "id": "af85d7c8-378d-4e3c-b14f-85d439f19b4c",
+    "name": "Prueba",
+    "commands": [{
+      "id": "9b20cd92-f779-4656-a693-d857c2669d12",
+      "comment": "",
+      "command": "open",
+      "target": "/espanol/news/como-hacer-tu-primer-pull-request-en-github/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "077fa1b3-ac10-41b7-8192-8a37fddf1150",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1567008e-2c59-4fa1-87fe-0f28da01cc4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=99xtechnology",
+      "targets": [
+        ["linkText=99xtechnology", "linkText"],
+        ["css=p:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'99xtechnology')]", "xpath:link"],
+        ["xpath=//main[@id='site-main']/div/article/section/div/section/p[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://99x.io/')]", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'99xtechnology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3609cfec-6e1f-4c89-b0ec-b08a7a57b55c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35.20000076293945)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f91ba61-6eea-4748-bbcb-bff9e78bf830",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More references →",
+      "targets": [
+        ["linkText=More references →", "linkText"],
+        ["css=.Spacing .Button--primary", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/main/article/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/references/')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More references →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a3a182f-2614-4cfc-bfc8-6c065f864f9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cookieConsent",
+      "targets": [
+        ["css=.cookieConsent", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4711b7e2-5c79-45e8-9fee-1518e9814ec0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cookieConsent",
+      "targets": [
+        ["css=.cookieConsent", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "79b2cdea-1039-4e8d-a4da-fb346baba1c3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["af85d7c8-378d-4e3c-b14f-85d439f19b4c"]
+  }],
+  "urls": ["https://www.freecodecamp.org/"],
+  "plugins": []
+}
